@@ -9,6 +9,8 @@ Add phrases and definitions, randomize them, click to hide/show definitions, fil
 
 They are saved in your own browser db so only you have access.
 
+![screenshot-dictionary - chromium](https://cloud.githubusercontent.com/assets/8508035/4904891/3615e7a0-644b-11e4-8177-65da82cba4c0.png)
+
 To use:
 
 * Open the single_file.html file in a modern browser.
