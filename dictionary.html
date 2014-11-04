@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>dictionary</title>
+    <link href="dictionary.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="messages" onclick="hideMessages(); return false;"></div>
+    <table id="input">
+      <tr>
+        <td width="15%"><input type="text" id="word"       name="word"       placeholder="word" /></td>
+        <td width="80%"><input type="text" id="definition" name="definition" placeholder="definition" /></td>
+        <td width="5%"><input type="submit" value="add" onclick="addWord(); return false;"/></td>
+      </tr>
+    </table><!-- input -->
+    <table id="options">
+      <tr>
+        <td><label><input type="checkbox" id="randomize" />randomize</label></td>
+        <td><label><input type="checkbox" id="showdefs" />show definitions</label></td>
+        <td><input type="submit" id="exportButton" value="export" onclick="exportToCSV(); return false;"/></td>
+        <td><input type="submit" id="importButton" value="import" onclick="importCSV(); return false;"/></td>
+        <td><span id="filter_form">filter: <input type="text" id="filter" /></span></td>
+      </tr>
+    </table><!-- options -->
+    <br />
+    <table id="definitions"></table><!-- definitions -->
+    <div id="csv" style="display: none"></div>
+  </body>
+  <script src="dictionary.js" type="text/javascript"></script>
+</html>
+

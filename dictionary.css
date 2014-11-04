@@ -1,0 +1,85 @@
+
+body {
+  background-color: #222;
+  color: #d9e0f9;
+  font: 14px monospace; }
+
+table {
+  width: 99%; }
+
+label {
+  vertical-align: top; }
+
+#messages {
+  display: none;
+  padding: 5px;
+  background-color: white;
+  border: 3px solid yellow;
+  color: black; }
+
+#messages span.error {
+  color: red; }
+
+#messages span.info {
+  color: green; }
+
+#input {
+  width: 100%; }
+
+#definition {
+  width: 99%; }
+
+#definitions {
+  width: 99%;
+  border-collapse: collapse; }
+
+#definitions tr {
+  border: 1px solid white; }
+
+#csv {
+  width: 98%;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid white;
+  display: none; }
+
+#importedCSV {
+  width: 99%;
+  height: 300px; }
+
+#filter_form {
+  width: 100%;
+  text-align: right;
+  float: right; }
+
+#filter_form input {
+  width: 50%; }
+
+.word {
+  text-align: center;
+  width: 20%;
+  padding: 5px; }
+
+.definition {
+  text-align: left;
+  color: white;
+  padding: 5px;
+  width: 75%; }
+
+.button {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  text-align: center; }
+
+.delete_button {
+  padding: 1px;
+  margin: 9px; }
+
+.right {
+  float: right; }
+
+.small {
+  font-size: small; }
